@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4vh;
+}
+
+p {
+    font-size: 3vh;
+    line-height: 1.5;
+}
+
+button.jspsych-btn {
+    font-size: 2vh;
+    padding: 1vh 2vh;
+    border-radius: 0.5em;
+}
+
+input[type="checkbox"] {
+    font-size: 2vh;
+    width: 1em;
+    height: 1em;
+}
+
+label {
+    font-size: 2.7vh;
+}
+
+.tutorial-state-estimation-btn {
+    margin: 10px;
+}

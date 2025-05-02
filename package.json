@@ -1,0 +1,23 @@
+{
+  "name": "psychiatric-questionnaires-jspsych",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1"
+  },
+  "dependencies": {
+    "@jspsych-datamanager/core": "^1.0.0",
+    "@jspsych-datamanager/firebase": "^1.0.0",
+    "@jspsych-datamanager/supabase": "^1.0.0",
+    "@jspsych/plugin-browser-check": "^2.1.0",
+    "@jspsych/plugin-survey": "^2.1.0",
+    "jspsych": "^8.2.1"
+  }
+}
