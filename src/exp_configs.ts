@@ -36,12 +36,12 @@ if (UPLOAD_SUPABASE && SUPABASE_API_KEY === "") {
 
 // Initialize Firebase
 export const firebaseConfig = {
-    apiKey: FIREBASE_API_KEY,
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
+    apiKey: "AIzaSyAGtu8k-wVdQHxnINxsj-_yQjX8P9FJkTc",
+    authDomain: "psychiatric-questionnaire.firebaseapp.com",
+    projectId: "psychiatric-questionnaire",
+    storageBucket: "psychiatric-questionnaire.firebasestorage.app",
+    messagingSenderId: "683555790438",
+    appId: "1:683555790438:web:045dd4c36f43ee5b5397a7"
 };
 
 export const supabaseConfig = {
